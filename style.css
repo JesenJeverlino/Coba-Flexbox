@@ -1,0 +1,157 @@
+body {
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+  line-height: 1.65;
+}
+
+/* Latihan 1 */
+.containerSatu {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.artikel {
+  order: 2;
+  flex: 3;
+}
+
+.sbSatu {
+  order: 1;
+  flex: 1;
+}
+
+.sbDua {
+  order: 3;
+  flex: 1;
+}
+/* Akhir Latihan 1 */
+
+/* Latihan 2 */
+.containerDua {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.containerDua div {
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.layananSatu {
+  background-color: red;
+}
+
+.layananDua {
+  background-color: purple;
+}
+
+.layananTiga {
+  background-color: blue;
+}
+/* Akhir Latihan 2 */
+
+/* Latihan 3 */
+.containerTiga {
+  max-width: 800px;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gambarSatu {
+  width: 50%;
+}
+.gambarSatu img {
+  width: 100%;
+}
+/* Akhir Latihan 3 */
+
+/* Latihan 4 */
+.containerEmpat {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.card {
+  background-color: white;
+  border: solid white 1px;
+  border-radius: 10px;
+  width: 85%;
+  margin: 25px auto;
+  flex: 1;
+}
+
+.besar {
+  transform: scale(1.1);
+}
+
+.header {
+  height: 150px;
+  background-color: rgb(57, 53, 53);
+  border-radius: 10px;
+  margin: 2px;
+}
+
+.content {
+  text-align: center;
+  padding-bottom: 10px;
+}
+/* Akhir Latihan 4 */
+
+/* Latihan 5 */
+.containerLima {
+  width: 500px;
+  height: 500px;
+  margin: 30px auto;
+  border: 3px solid black;
+  display: flex;
+}
+
+.kotak {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  color: green;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.kotak span {
+  margin: auto;
+}
+/* Akhir Latihan 5 */
+
+/* responsive */
+@media (min-width: 600px) {
+  .containerSatu {
+    display: flex;
+  }
+  .containerDua {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .containerDua div {
+    width: 30%;
+  }
+
+  .gambarSatu {
+    width: 25%;
+  }
+
+  .containerEmpat {
+    display: flex;
+  }
+
+  .card {
+    width: 0;
+    margin: 10px;
+  }
+}
